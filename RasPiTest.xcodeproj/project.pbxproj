@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAAD08E61CF4273100C1A351 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD08E51CF4273100C1A351 /* AppDelegate.swift */; };
+		AAAD08E81CF4273100C1A351 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD08E71CF4273100C1A351 /* ViewController.swift */; };
+		AAAD08EB1CF4273100C1A351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAAD08E91CF4273100C1A351 /* Main.storyboard */; };
+		AAAD08EE1CF4273100C1A351 /* RasPiTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAAD08EC1CF4273100C1A351 /* RasPiTest.xcdatamodeld */; };
+		AAAD08F01CF4273100C1A351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAD08EF1CF4273100C1A351 /* Assets.xcassets */; };
+		AAAD08F31CF4273100C1A351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAAD08F11CF4273100C1A351 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAAD08E21CF4273100C1A351 /* RasPiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RasPiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAAD08E51CF4273100C1A351 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAAD08E71CF4273100C1A351 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAAD08EA1CF4273100C1A351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAAD08ED1CF4273100C1A351 /* RasPiTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RasPiTest.xcdatamodel; sourceTree = "<group>"; };
+		AAAD08EF1CF4273100C1A351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAAD08F21CF4273100C1A351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAAD08F41CF4273100C1A351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAAD08DF1CF4273100C1A351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAAD08D91CF4273100C1A351 = {
+			isa = PBXGroup;
+			children = (
+				AAAD08E41CF4273100C1A351 /* RasPiTest */,
+				AAAD08E31CF4273100C1A351 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAAD08E31CF4273100C1A351 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAAD08E21CF4273100C1A351 /* RasPiTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAAD08E41CF4273100C1A351 /* RasPiTest */ = {
+			isa = PBXGroup;
+			children = (
+				AAAD08E51CF4273100C1A351 /* AppDelegate.swift */,
+				AAAD08E71CF4273100C1A351 /* ViewController.swift */,
+				AAAD08E91CF4273100C1A351 /* Main.storyboard */,
+				AAAD08EF1CF4273100C1A351 /* Assets.xcassets */,
+				AAAD08F11CF4273100C1A351 /* LaunchScreen.storyboard */,
+				AAAD08F41CF4273100C1A351 /* Info.plist */,
+				AAAD08EC1CF4273100C1A351 /* RasPiTest.xcdatamodeld */,
+			);
+			path = RasPiTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAAD08E11CF4273100C1A351 /* RasPiTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAAD08F71CF4273100C1A351 /* Build configuration list for PBXNativeTarget "RasPiTest" */;
+			buildPhases = (
+				AAAD08DE1CF4273100C1A351 /* Sources */,
+				AAAD08DF1CF4273100C1A351 /* Frameworks */,
+				AAAD08E01CF4273100C1A351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RasPiTest;
+			productName = RasPiTest;
+			productReference = AAAD08E21CF4273100C1A351 /* RasPiTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAAD08DA1CF4273100C1A351 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = kentaro;
+				TargetAttributes = {
+					AAAD08E11CF4273100C1A351 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9ER66MQS8K;
+					};
+				};
+			};
+			buildConfigurationList = AAAD08DD1CF4273100C1A351 /* Build configuration list for PBXProject "RasPiTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAAD08D91CF4273100C1A351;
+			productRefGroup = AAAD08E31CF4273100C1A351 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAAD08E11CF4273100C1A351 /* RasPiTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAAD08E01CF4273100C1A351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAAD08F31CF4273100C1A351 /* LaunchScreen.storyboard in Resources */,
+				AAAD08F01CF4273100C1A351 /* Assets.xcassets in Resources */,
+				AAAD08EB1CF4273100C1A351 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAAD08DE1CF4273100C1A351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAAD08EE1CF4273100C1A351 /* RasPiTest.xcdatamodeld in Sources */,
+				AAAD08E81CF4273100C1A351 /* ViewController.swift in Sources */,
+				AAAD08E61CF4273100C1A351 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAAD08E91CF4273100C1A351 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAAD08EA1CF4273100C1A351 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAAD08F11CF4273100C1A351 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAAD08F21CF4273100C1A351 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAAD08F51CF4273100C1A351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAAD08F61CF4273100C1A351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAAD08F81CF4273100C1A351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = RasPiTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oratnek.RasPiTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		AAAD08F91CF4273100C1A351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = RasPiTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oratnek.RasPiTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAAD08DD1CF4273100C1A351 /* Build configuration list for PBXProject "RasPiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAAD08F51CF4273100C1A351 /* Debug */,
+				AAAD08F61CF4273100C1A351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAAD08F71CF4273100C1A351 /* Build configuration list for PBXNativeTarget "RasPiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAAD08F81CF4273100C1A351 /* Debug */,
+				AAAD08F91CF4273100C1A351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AAAD08EC1CF4273100C1A351 /* RasPiTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AAAD08ED1CF4273100C1A351 /* RasPiTest.xcdatamodel */,
+			);
+			currentVersion = AAAD08ED1CF4273100C1A351 /* RasPiTest.xcdatamodel */;
+			path = RasPiTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AAAD08DA1CF4273100C1A351 /* Project object */;
+}
